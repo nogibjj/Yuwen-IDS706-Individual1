@@ -19,7 +19,8 @@ def get_data_descriptive_stats(dataframe, col):
 
 def plot_hist(dataframe, col,jupyter:bool=False):
     """Plot histogram of the given column"""
-    plt.figure(figsize=(10,8))
+    plt.figure()
+    plt.rcParams["figure.figsize"] = (10,8)
     plt.hist(dataframe[col], bins=10, color='green', edgecolor='black', linewidth=1.2)
     plt.title(f"Histogram of {col}")
     plt.xlabel(col)
