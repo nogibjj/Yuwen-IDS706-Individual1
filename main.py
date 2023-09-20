@@ -1,6 +1,5 @@
 """Script to run descriptive statistics on the iris dataset,
 using common fucntions from lib.py"""
-import sys
 import pandas as pd
 import lib
 
