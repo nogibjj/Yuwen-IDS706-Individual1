@@ -1,5 +1,5 @@
-# Continuous Integration using GitHub Actions of Python Pandas Data Science Project: Individual Project One
-### by Rakeen Rouf
+# Continuous Integration using GitHub Actions of Python  Data Science Project: Individual Project #1
+### by Yuwen Cai
 
 
 ---
