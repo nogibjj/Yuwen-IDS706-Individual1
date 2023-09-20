@@ -12,3 +12,4 @@ def test_descriptive_stats():
     assert 'Mean' in results
     assert 'StdDev' in results
     assert 'Min' in results
+
