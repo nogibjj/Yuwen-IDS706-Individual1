@@ -1,4 +1,4 @@
-# Continuous Integration using GitHub Actions of Python  Data Science Project: Individual Project #1
+# Continuous Integration of Python Data Science Project: Individual Project #1
 ### by Yuwen Cai
 
 
