@@ -14,7 +14,7 @@ This project serves Continuous Integration using GitHub Actions of Python Data S
   - Contains cells that calculate descriptive features and simple histogram visualization of a given dataset using Pandas.
   - Validated using the nbval plugin for pytest.
 
-- **`Python Script(main.py)`**:
+- **`Python Script(script.py)`**:
   - Executes descriptive statistics and visualization in a Python file using Pandas.
   - validated through pytest.
 
