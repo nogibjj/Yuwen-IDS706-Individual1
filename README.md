@@ -1,5 +1,5 @@
-# Continuous Integration of Data Science Project: Individual Project #1
-### by Yuwen Cai
+# Continuous Integration of Data Science Project
+### IDS-706 Individual Project #1 by Yuwen Cai
 
 
 ---
