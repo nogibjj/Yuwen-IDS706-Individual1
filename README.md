@@ -2,6 +2,12 @@
 ### IDS-706 Individual Project #1 by Yuwen Cai
 
 [![cicd](https://github.com/nogibjj/Yuwen-IDS706-Individual1/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Yuwen-IDS706-Individual1/actions/workflows/cicd.yml)
+
+---
+**YouTube Video Demo**
+
+https://youtu.be/JSrr9RvWZAw
+
 ---
 **Summary**
 
