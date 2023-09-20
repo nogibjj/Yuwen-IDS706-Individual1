@@ -6,6 +6,7 @@
 **Summary**
 
 This project serves Continuous Integration using GitHub Actions of Python Data Science Project. Adopting Github actions, this Python-based template helps maintain code quality and consistency throughout the development process. The workflows include package downloading, linting, testing, formatting, and running tests. This repo are generated from my previous Python CiCd automation template: https://github.com/Candice1121/IDS706-template
+
 ---
 **Project Structure**
 
@@ -35,5 +36,26 @@ This project serves Continuous Integration using GitHub Actions of Python Data S
 ---
 
 **Getting Started**
+
+This section is included in ```descriptive.ipynb```
+
+### Pandas Descriptive Statistics
+![](/.output/visualization_hist.png)
+
+### Female Base Pay Distribution
+![](/.output/visualization_hist.png)
+
+---
+
+**Run**
+
+### Some Makefile Commands
+```commandline
+make install
+make format
+make lint
+make test
+make run
+```
 
 
