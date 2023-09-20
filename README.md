@@ -1,4 +1,4 @@
-# Continuous Integration of Python Data Science Project: Individual Project #1
+# Continuous Integration of Data Science Project: Individual Project #1
 ### by Yuwen Cai
 
 
@@ -42,8 +42,11 @@ This section is included in ```descriptive.ipynb```
 ### Pandas Descriptive Statistics
 ![](/output/description.png)
 
-### Female Base Pay Distribution
+### Sepal Length(cm) Distribution
 ![](/output/visualization_hist.png)
+
+### Pass test cases
+![](/output/pytest.png)
 
 ---
 
