@@ -1,5 +1,7 @@
 import main
 import pandas as pd
+import sys
+sys.path.append("/workspaces/Yuwen-IDS706-Individual1")
 
 
 def test_descriptive_stats():

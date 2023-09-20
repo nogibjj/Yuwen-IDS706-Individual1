@@ -1,6 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 from lib import load_data, get_data_descriptive_stats, plot_hist
+import sys
+sys.path.append("/workspaces/Yuwen-IDS706-Individual1")
 
 
 
