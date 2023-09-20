@@ -40,10 +40,10 @@ This project serves Continuous Integration using GitHub Actions of Python Data S
 This section is included in ```descriptive.ipynb```
 
 ### Pandas Descriptive Statistics
-![](/.output/visualization_hist.png)
+![](/output/visualization_hist.png)
 
 ### Female Base Pay Distribution
-![](/.output/visualization_hist.png)
+![](/output/visualization_hist.png)
 
 ---
 
