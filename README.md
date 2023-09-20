@@ -31,7 +31,7 @@ This project serves Continuous Integration using GitHub Actions of Python Data S
   - Test cases for the lib.py script.
 
 - **`test_script.py(test_script.py)`**:
-  - Test cases for the main.py script.
+  - Test cases for the script.py script.
 
 ---
 
