@@ -1,5 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import sys
+sys.path.append("/workspaces/Yuwen-IDS706-Individual1")
 
 def load_data(datapath):
     return pd.read_csv(datapath)

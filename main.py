@@ -2,7 +2,8 @@
 using common fucntions from lib.py"""
 import pandas as pd
 import lib
-
+import sys
+sys.path.append("/workspaces/Yuwen-IDS706-Individual1")
 
 def run_descriptive_stats(data_: pd.DataFrame, target_column: str) -> dict:
     "Runs descriptive statistics on the passed dataset"
