@@ -1,4 +1,4 @@
-import main
+import script
 import pandas as pd
 
 
@@ -8,7 +8,7 @@ def test_descriptive_stats():
     data = pd.read_csv("src/Iris.csv")
     target_column = "SepalLengthCm"
 
-    results = main.run_descriptive_stats(data, target_column)
+    results = script.run_descriptive_stats(data, target_column)
 
     assert 'Mean' in results
     assert 'StdDev' in results
