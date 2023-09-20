@@ -2,8 +2,7 @@
 using common fucntions from lib.py"""
 import pandas as pd
 import lib
-import sys
-sys.path.append("/workspaces/Yuwen-IDS706-Individual1")
+
 
 def run_descriptive_stats(data_: pd.DataFrame, target_column: str) -> dict:
     "Runs descriptive statistics on the passed dataset"
@@ -15,7 +14,7 @@ def run_visualizations(data_: pd.DataFrame, target_var: str) -> None:
 
 
 if __name__ == '__main__':
-    data = lib.load_data("data/iris_data.csv")
+    data = lib.load_data("src/iris_data.csv")
     TARGET_COLUMN = "SepalLengthCm"
     results = run_descriptive_stats(data, TARGET_COLUMN)
     print(results)

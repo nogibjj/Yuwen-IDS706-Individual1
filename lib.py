@@ -1,7 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import sys
-sys.path.append("/workspaces/Yuwen-IDS706-Individual1")
+
 
 def load_data(datapath):
     return pd.read_csv(datapath)
@@ -33,7 +32,7 @@ def plot_hist(dataframe, col,jupyter:bool=False):
     
 
 if __name__ == "__main__":
-    data = load_data("data/Iris.csv")
+    data = load_data("src/Iris.csv")
     TARGET_COLUMN = "SepalLengthCm"
 
     print('Target Column: ', TARGET_COLUMN)

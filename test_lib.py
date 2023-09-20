@@ -1,14 +1,13 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 from lib import load_data, get_data_descriptive_stats, plot_hist
-import sys
-sys.path.append("/workspaces/Yuwen-IDS706-Individual1")
+
 
 
 
 def test_statistics():
     """Test function for column statistics"""
-    data = pd.read_csv("data/Iris.csv")
+    data = pd.read_csv("src/Iris.csv")
     target_column = 'SepalLengthCm'
 
     res =  get_data_descriptive_stats(data, target_column)
@@ -20,7 +19,7 @@ def test_statistics():
 def test_visualize_dataset():
     """Testing function for histogram of the target column"""
 
-    data = load_data("data/Iris.csv")
+    data = load_data("src/Iris.csv")
     target_column = 'SepalLengthCm'
 
 
